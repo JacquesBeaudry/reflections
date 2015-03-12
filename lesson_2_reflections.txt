@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+   git init creates the .git directory and the metadata necessary.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+   The staging area in in-between the working directory and the repository.
+   It allows having some files untracked.  Not all files should be in the repository, but some of those will still be in the working directory.
+
