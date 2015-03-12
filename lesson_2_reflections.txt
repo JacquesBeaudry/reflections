@@ -7,3 +7,11 @@ How is the staging area different from the working directory and the repository?
    The staging area in in-between the working directory and the repository.
    It allows having some files untracked.  Not all files should be in the repository, but some of those will still be in the working directory.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+    Only add the files related to a logical change to the staging area, then commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+     when preparing a new feature while maintaining support for the main (master) branch.
+
