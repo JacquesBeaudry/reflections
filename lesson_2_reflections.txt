@@ -22,4 +22,10 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
     Merging two branches will combine the commits of both branches starting with their common ancestor. Commits are listed from the most recent followed by its parent, and so on.
-    
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    A lot of the merges are really trivial (without conflict), it would be really boring to do every such merge manually.
+    Some of the merges are in conflict, so it's better to do those manually.
+    The downside is that some of the automatic merge could possibly be wrong, so the best policy there is to review every one to avoid errors.
+
