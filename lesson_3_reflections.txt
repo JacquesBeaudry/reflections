@@ -23,6 +23,9 @@ Describe the differences between forks, clones, and branches. When would you use
       This is local to a repo.  When a repo has been cloned, checking out a
       remote branch will create a local tracking branch.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
+      The first benefit is that it allows working offline.  Git does not require users
+      to be allways online. Second benefit is that you can depart from what is the state
+      of the remote repo, but still take it into account.
 
-      
