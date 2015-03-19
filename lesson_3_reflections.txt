@@ -29,3 +29,9 @@ What is the benefit of having a copy of the last known state of the remote store
       to be allways online. Second benefit is that you can depart from what is the state
       of the remote repo, but still take it into account.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+      We would need some way to share the code and code history. Maybe some database system could help.
+      I don't see how it could help not to have git (or some similar version control system).  GitHub is
+      convenient, but its value is because it is a de facto standard.
+
