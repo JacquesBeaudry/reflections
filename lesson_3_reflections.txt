@@ -35,3 +35,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
       I don't see how it could help not to have git (or some similar version control system).  GitHub is
       convenient, but its value is because it is a de facto standard.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+      When the change is easy and fast, it can be done immediately on master.  In a big project,
+      each release will probably have its own branch and changes to each release will be in their
+      own sub-branch so they can be reviewed before merging.
